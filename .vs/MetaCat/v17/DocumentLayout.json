@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity Project\\MetaCat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|D:\\Unity Project\\MetaCat\\assets\\ttsdk\\bytegameadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\ttsdk\\bytegameadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\merge beast\\scripts\\common\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\common\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\crush\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\crush\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\crush\\scripts\\langmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\crush\\scripts\\langmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\merge beast\\scripts\\iap\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\iap\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\merge beast\\scripts\\popup\\iapscr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\popup\\iapscr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\merge beast\\scripts\\iap\\shoppack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\iap\\shoppack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|D:\\Unity Project\\MetaCat\\assets\\merge beast\\scripts\\popup\\bookscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\popup\\bookscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\merge beast\\scripts\\common\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\common\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|d:\\unity project\\metacat\\assets\\crush\\scripts\\ui\\panelreceive2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\crush\\scripts\\ui\\panelreceive2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|D:\\Unity Project\\MetaCat\\assets\\merge beast\\scripts\\popup\\boostads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\popup\\boostads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|D:\\Unity Project\\MetaCat\\assets\\merge beast\\scripts\\common\\freeboostctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\common\\freeboostctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|D:\\Unity Project\\MetaCat\\assets\\merge beast\\scripts\\popup\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E265F999-6BD1-1950-F9A4-ABF275071156}|Assembly-CSharp.csproj|solutionrelative:assets\\merge beast\\scripts\\popup\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Crush\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Crush\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAswDwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:55:44.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LangManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\LangManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Crush\\Scripts\\LangManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\LangManager.cs",
+              "RelativeToolTip": "Assets\\Crush\\Scripts\\LangManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:55:20.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAPManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\IAP\\IAPManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\IAP\\IAPManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\IAP\\IAPManager.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\IAP\\IAPManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:54:38.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopPack.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\IAP\\ShopPack.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\IAP\\ShopPack.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\IAP\\ShopPack.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\IAP\\ShopPack.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:43:10.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAPScr.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\IAPScr.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Popup\\IAPScr.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\IAPScr.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Popup\\IAPScr.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAqwEUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:40:17.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Common\\UIManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Common\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:43:47.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PanelReceive2.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\UI\\PanelReceive2.cs",
+              "RelativeDocumentMoniker": "Assets\\Crush\\Scripts\\UI\\PanelReceive2.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Crush\\Scripts\\UI\\PanelReceive2.cs",
+              "RelativeToolTip": "Assets\\Crush\\Scripts\\UI\\PanelReceive2.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAiwEsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:20:20.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdsManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\AdsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Common\\AdsManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\AdsManager.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Common\\AdsManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T05:33:50.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BoostAds.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\BoostAds.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Popup\\BoostAds.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\BoostAds.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Popup\\BoostAds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T05:33:08.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ByteGameAdManager.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\TTSDK\\ByteGameAdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\TTSDK\\ByteGameAdManager.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\TTSDK\\ByteGameAdManager.cs",
+              "RelativeToolTip": "Assets\\TTSDK\\ByteGameAdManager.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAcwOkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:40:54.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\RatingController.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Popup\\RatingController.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\RatingController.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Popup\\RatingController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:24:03.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FreeBoostCtrl.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\FreeBoostCtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Common\\FreeBoostCtrl.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Common\\FreeBoostCtrl.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Common\\FreeBoostCtrl.cs",
+              "ViewState": "AgIAACMDAAAAAAAAAAAAACMDAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:16:02.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookScreen.cs",
+              "DocumentMoniker": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\BookScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Merge Beast\\Scripts\\Popup\\BookScreen.cs",
+              "ToolTip": "D:\\Unity Project\\MetaCat\\Assets\\Merge Beast\\Scripts\\Popup\\BookScreen.cs",
+              "RelativeToolTip": "Assets\\Merge Beast\\Scripts\\Popup\\BookScreen.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwE8BAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T02:29:56.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

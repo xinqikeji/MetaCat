@@ -1,0 +1,1666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{E265F999-6BD1-1950-F9A4-ABF275071156}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_2021_3_14;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;ODIN_INSPECTOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>2021.3.14f1c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Merge Beast\Scripts\Obsever\EventDispatcher.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UILineTextureRenderer.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\FireStaffWave.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\Vector3Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\RescalingPanels\RescaleDragPanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\NoticeUpgrade.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\StageItemView.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletIcePillars.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ReorderableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CurvedText.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\IAPConfig.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectEx.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\BatSwarm.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ComboBox\DropDownList.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Config.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\CrushStringHelper.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\FreeBoostPopupAnim.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\GameManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\Atlantus.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\Constant.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\FreeBoostTutorial.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\BeastStatusItemView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\InputFieldEnterSubmit.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Libs\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\CurvedLayout.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\Boost\ButtonBoost.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\Sound.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\AscendScr.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Non-Mono Classes\SceneObject.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\Battle\SelectBattleController.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\BoostManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Tutorial\TutorialMap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ReorderableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\BeastConfig.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\CPlayer.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Gradient.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BookItemBeast.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\SpecialSkill.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\Element.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ReorderableList\ReorderableList.cs" />
+    <Compile Include="Assets\Crush\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\AscendWheelScr.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\SaveLoadMenu.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\MyScrollViewStats.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BookHeroItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\SoftMaskScript.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\Skill03ItemView.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Shop\ChestItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BoostScreen.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\ThornSkill02.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\RewardItemView.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Dialog\ConfirmDialog.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\SelectionBox\SelectionBox.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\TeamBuffItemView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Effect\ScaleInOut.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ComboBox\ComboBox.cs" />
+    <Compile Include="Assets\Crush\Scripts\BeastPrefs.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\NewBeastScr.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Merge\BeastItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UICircle.cs" />
+    <Compile Include="Assets\Crush\Scripts\Controller\SpriteMovement.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIScrollToSelection.cs" />
+    <Compile Include="Assets\Crush\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\SkillHomeInfoItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\FreeBoostCtrl.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Prepare\PreparePanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\Boost\BoostChestItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\ConfirmQuitController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UILineRenderer.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BeastInTeamItemView.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFade.cs" />
+    <Compile Include="Assets\NumberFormat.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\RescalingPanels\RescalePanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\EnemyManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\Shop\ChestType.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\Shop\ChestModel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\World\MapController.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonFireProjectile.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletThornSkill02.cs" />
+    <Compile Include="Assets\Crush\Scripts\TestGizmos.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\UIParticleSystem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\QuaternionSurrogate.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\GenderType.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\PPIViewer.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\FCMCtrl.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\UIVerticalScroller.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\Battle\DragBattle.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BoostItemAds.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\CommonArcher.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Libs\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Stage\StagePanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\BoostConfig.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Tutorial\TutorialController.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\EggAnimation.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\UIFlippable.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\VIP\VipConfig.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Utilities\TypeSystem.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\TeamBuffInfoDialog.cs" />
+    <Compile Include="Assets\Crush\Scripts\GameData.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HSVUtil.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\Option.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\BloosLust.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\Vector2Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectTweener.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\ShopSoulSrc.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\Egg\EggSlice.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\SelectionBox\IBoxSelectable.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\Heal.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ImageExtended.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\All1ShaderDemoController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\ExampleScriptsAndClasses\TestClass.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\DataConfig.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIPolygon.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UILinearDodgeEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\BestFitOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ComboBox\DropDownListItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletSorrow3.cs" />
+    <Compile Include="Assets\Crush\Scripts\DrawLines.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Effect\GetGemEffect.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\RegionModel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\StarShopItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Merge\MergeEffect.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\SaveSystem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\InputModules\AimerInputModule.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\OneEye.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\DragCorrector.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1Shader.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\CareerScr.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\ForestStrength.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\TimeUp.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletAtlantisSkill02.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\StatHelper.cs" />
+    <Compile Include="Assets\TTSDK\cebianlan.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\UpgradeScreen.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\switchToRectTransform.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\UIGameManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\ButtonSpawnBeast.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\CommonFlyer.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\TilePuzzleConfig.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShineEffector.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\BigIntegerHelper.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\Chaos.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\Vector4Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\ColorPickerTester.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\PanelWin.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ReorderableList\ReorderableListDebug.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\DailyQuestCtrl.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\NormalShoot.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ScrollSlider.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\SniperShot.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BossComplete.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonLightFlicker.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\ExampleScriptsAndClasses\TestScript.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonProjectileScript.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\ActionHelper.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\DailyQuestConfig.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\StageDatas.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\StarShopSrc.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\ChapterDatas.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\AttackParam.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\SlotController.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\MoveType.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\LevelHelper.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Tutorial\TutBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Attributes\DontSaveField.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\TTSDK\SDKTest.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\FadeScreen.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\ColorSurrogate.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\Egg\EggController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ComboBox\AutoCompleteComboBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UIImageCrop.cs" />
+    <Compile Include="Assets\Crush\Scripts\Controller\SpriteDuplicator.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\RewardHelper.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\CoinRewardFX.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\LeafBlade.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\AtlantusSkill02.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\GladiusStrike.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\RescalingPanels\ResizePanel.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\MonsterAtributeView.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\LightOrb.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\TileController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\TileSizeFitter.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\DemoItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\BeastTeamInfo.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\VIP\VipController.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\ScrollViewResult.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\ObjectIdentifier.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\RewardModel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\TabNavigation.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\SerializableDictionary.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Shop\FortuneChestPanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UIMultiplyEffect.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\ChaosAxeSmash.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HexRGB.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\Shop\ShopSprites.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\DiamondGraph.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\DemoCamera.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\LevelController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\Texture2DSurrogate.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Merge\BeastTraining.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BookScreen.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\ScrollSnap.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\UIManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\InputFocus.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BoostAds.cs" />
+    <Compile Include="Assets\Crush\Scripts\Entities\BeastSpecialSkill.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\ToolTip.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\AscendWheelReward.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\StatInfoItemView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\VerticalScrollSnap.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletCircle2.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\Shop\ChestDatas.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\AdsManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\SerializableHashSet.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\Demo2AutoScroll.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\PauseController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UICornerCut.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Obsever\Common.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\PanelInfo.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\NicerOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\CLZF2.cs" />
+    <Compile Include="Assets\Crush\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\IAPScr.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\StringDefine.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Accordion\Tweening\ITweenValue.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\SkeletonDatas.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\HitRandom.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\Kage.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UIScreenEffect.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\LevelComplete.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\CritSprites.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Accordion\Tweening\FloatTween.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\DemoRandomColorSwap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HSVSliderEvent.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\TeamBuffModel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\VR Extensions\VRInputModule.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\GameManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Accordion\Accordion.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\SoundManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\Entities\BeastBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\HoverTooltip.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Obsever\EventID.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\PanelReceive2.cs" />
+    <Compile Include="Assets\TTSDK\ByteGameAdManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\StageModel.cs" />
+    <Compile Include="Assets\Crush\Scripts\Entities\EntityBase.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\BugonautArcher.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\DailyBoost.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\GameObjectSurrogate.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\BeastState.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\UpgradeTutorialCtrl.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\RatingController.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\Prepare\PrepareItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\DailyRewardScr.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\BeastInfoItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\World\Cloud.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\DragUI.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\GrooVine.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\ChapterDatas2.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Libs\SimpleJSON.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\BuyTurnController.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Merge\GiftBeastFX.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BeastTeamItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Effect\NewBeastEffect.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Scripts\SetAtlasUvs.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\Shop\ShopItemModel.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\SkillDes.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\CollectPuzzle.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonLoopScript.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\TileLootConfig.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BeastInfoItemView.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\RewardSprites.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HsvSliderPicker.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Shop\FortuneChestItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\GameOverController.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\BatMan.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonSceneSelect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UISoftAdditiveEffect.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\ScreenManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ReturnKeyTriggersButton.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\GameOverController.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\PlayerData.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\AscendRewardItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Stage\ChapterRewardPanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BigBeastSrc.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\MonsterData.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Tutorial\TutMap.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\MonsterConfig.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\PageSwiper.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ListMonster\BeastInfoHomePanel.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\Melee.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\NewTut.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\Shop\ShopDatas.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectExtensions.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\EnumDefine.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletVladSkill3.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\OfflineRewardScr.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\PanelLoading.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\MonsterDesSprites.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\Shop\ShopItemType.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UIScrollToSelectionXY.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BookHeroPanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\HorizontalScrollSnap.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletLifeSteal.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\Possess.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Tutorial.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\IAP\ShopPack.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\PanelReceive.cs" />
+    <Compile Include="Assets\Crush\Scripts\Entities\SkillBase.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\UpgradeItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\IAP\IAPManager.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BeastEvolveView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BookItemEnemy.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Merge\BeastBattle.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\ShieldType.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\UI\Egg\Test.cs" />
+    <Compile Include="Assets\Crush\Scripts\TeamBuffSprites.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\Thorn.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\TestCompression.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\StatusSprites.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ListMonster\MonsterList.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\ArrowShower.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\SkillToolTipView.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\BeeSwarm.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\IcePillars.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\DailyConfig.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\HeroConfig.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\TeamBuffHelper.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\SelectionBox\ExampleSelectable.cs" />
+    <Compile Include="Assets\Crush\Scripts\Skill\DarkStrike.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BuyDialog.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\HealthBar.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\UISelectableExtension.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\BezierPath.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\Critical.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletMerlinus2.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollRectLinker.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\BulletParam.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\TeamBuild\DragChecker.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\CylinderText.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ReceiveReward\MonsterFade.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\AbilityType.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Scripts\AllIn1ShaderWindow.cs" />
+    <Compile Include="Assets\Crush\Scripts\Boss\RobinHood.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Shop\ShopItemView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\PrizeController.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletSiegFried3.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\FreeBoostConfig.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\TooltipEnemyScr.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\ItemDaily.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Non-Mono Classes\SceneData.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\UIButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Non-Mono Classes\ObjectComponent.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\EffectManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\IAPItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UIMesh.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HsvBoxSelector.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\VR Extensions\VRCursor.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\RewardType.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\PoolManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\ShineEffect.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Stage\StageInfoPanel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\MissionCtrl.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\HSVPicker\HSVPicker.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletBezier3.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Layout\RadialLayout.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\TransformSurrogate.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\SaveLoad.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Scripts\RandomSeed.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\IAP\IAPListener.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BaseScreen.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\BeastActionDialog.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\ConfirmPlay.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletChaos03.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\LevelItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\LootItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\LangManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\ObjectData\DataDefine.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\TileMove.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletBezier.cs" />
+    <Compile Include="Assets\Crush\Scripts\Entities\Gate.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\StartController.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletBezier2.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\Battle\BattleItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\ComboBox\DropDownListButton.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonButtonScript.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\BoostItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\EnemyScrollViewStats.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\VIP\VipBenefitItem.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\SettingScr.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\UnbiasedTime.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\PanelRetreat.cs" />
+    <Compile Include="Assets\Crush\Scripts\Helper\Helper.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ExtensionsToggle.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\Shaders\UIAdditiveEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\UIWindowBase.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\GameAssets.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\ModelView\RewardChapterItemView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\LetterSpacing.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Effects\RaycastMask.cs" />
+    <Compile Include="Assets\AllIn1SpriteShader\Demo\Scripts\DemoCircleExpositor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\InputModules\GamePadInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Utilities\ScrollConflictManager.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\BoostNotify.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonOrbit.cs" />
+    <Compile Include="Assets\Crush\Scripts\Common\StatNames.cs" />
+    <Compile Include="Assets\Crush\Scripts\Model\AbilityModel.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Common\Utils.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\PanelLose.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\PanelStats.cs" />
+    <Compile Include="Assets\Crush\Scripts\Bullet\BulletBase.cs" />
+    <Compile Include="Assets\Crush\Scripts\Data\Shop\ShopItemDatas.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\Header.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Accordion\Tweening\TweenRunner.cs" />
+    <Compile Include="Assets\Crush\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Scripts\PolygonRotation.cs" />
+    <Compile Include="Assets\Polygon Arsenal\Demo\Scripts\PolygonBeamScript.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Accordion\AccordionElement.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\InGame\BeastScrollView.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\ConfirmScreen.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\Popup\DailyQuestItem.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\TeamBuild\TeamBuildPanel.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Dialog\BuyCurrencyDialog.cs" />
+    <Compile Include="Assets\Merge Beast\Scripts\TileMonster\BroadCastReceiver.cs" />
+    <Compile Include="Assets\Crush\Scripts\UI\Shop\ShopPanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Sun fx\sun_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Jiao fx\jiao_effect.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\5 Dalmatian Boomerang\dalmatian_boomerang.atlas.txt" />
+    <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Miu\miu.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Kyuzo\kyuzo.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Dalmatian Shield\dalmatian_shield.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat\Cat.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\6 Ceshi\dalmatian_sword.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\0 Antler sheep\antler_sheep.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Mijus fx\mijus_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Sun wp\sun_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\9 Pomper Mace\pomer_mace.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90011\90011.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Holi fx\holi_effect.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Mora wp\mora_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Modie\modie.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Flash wp\flash_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\The Elder One fx\the_elder_one_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Flamie\flamie.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Baiko wp\baiko_weapon.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\8 Little Mijus\little_mijus.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kyuzo wp\kyuzo_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Flamie wp\flamie_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Pank fx\pank_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\4 Monkey Mob\monkey_mob.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Pank\pank.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Naruto fx\naruto_effect.atlas.txt" />
+    <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShader.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kagura wp\kagura_weapon.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Pomer Slingshot\pomer_slingshot.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Bean fx\bean_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90005\90005.atlas.txt" />
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Kagura\kagura.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyIntense.Shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Bean wp\bean_weapon.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightSelective.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90008\90008.atlas.txt" />
+    <None Include="Assets\codeandweb.com\Readme.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Pomer Slingshot fx\pomer_slingshot_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Shiba fire fx\shiba_fire_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Shiba Fire\shiba_fire.atlas.txt" />
+    <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderScrollView.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\13 Shiba Water\shiba_water.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90001\90001.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightSolid.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90002\90002.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Modie fx\modie_effect.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Jiao wp\jiao_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\14 The Elder Two\the_elder_two.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Bee fx\bee_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Seiji fx\seiji_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Flamie fx\flamie_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Tsuki wp\tsuki_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Dalmatian shield fx\dalmatian_shield_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\1 Bee\bee.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Gostie fx\gostie_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Flash fx\flash_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\The Elder One\the_elder_one.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Egg\egg.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kina wp\kina_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90009\90009.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Seiji\seiji.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Miu fx\miu_effect.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Polygon Arsenal - Readme.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Gostie\gostie.atlas.txt" />
+    <None Include="Assets\Demigiant\DOTween\DOTween.dll" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Monkey mob fx\monkey_mob_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Bat\fly_bat.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Modie wp\modie_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Naruto\naruto.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Flash\flash.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Baiko FX\baiko_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Hero Cat Empty\hero_cat_empty.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\11 Shiba Light\shiba_light.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90017\90017.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kagura fx\kagura_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Tsuki\tsuki.atlas.txt" />
+    <None Include="Assets\MaxSdk\Mediation\MediationAdapters.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Fishie fx\fishie_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Bean\bean.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Nemu fx\nemu_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1SpriteShaderLight.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Naruto fx 2\naruto_effect2.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Mijus\mijus.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\7 Hero Cat\hero_cat.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Jiao\jiao.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Fishie wp\fishie_weapon.atlas.txt" />
+    <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShaderText.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Sun\sun.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Tsuki fx\tsuki_effect.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyRimLightTransparent.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Seji wp\seiji_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90014\90014.atlas.txt" />
+    <None Include="Assets\Polygon Arsenal\Shaders\Standard\PolyLitSurface.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\12 Shiba Thunder\shiba_thunder.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Nemu wp\nemu_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Fishie\fishie.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kina fx\kina_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90006\90006.atlas.txt" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Little Miju fx\little_mijus_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Mora\mora.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Kina\kina.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Miu wp\miu_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Devil Dragon fx\devil_dragons_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Antler Sheep FX\antler_sheep_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\3 Devil Dragon\devil_dragons.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\90012\90012.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Nemu\nemu.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Gostie wp\gostie_weapon.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Holi\holi.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Hamster\Hamster.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\10 Shiba Dark\shiba_dark.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Baiko\baiko.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Kyuzo fx\kyuzo_effect.atlas.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\AllIn1SpriteShader\Resources\AllIn1OneShaderFunctions.cginc" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\Hero Cat Floating\hero_cat_floating.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Mora fx\mora_effect.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Cat Effect\Holi wp\holi_weapon.atlas.txt" />
+    <None Include="Assets\Merge Beast\AnimationSpine\Monster\15 The Elder Three\the_elder_three.atlas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIWidgetsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIWidgetsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.WebGLModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ttsdk">
+      <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\UnityEditor\2021.3.14f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Purchasing.Common.csproj">
+      <Project>{3A93A62D-4F31-16E9-6F67-68C95102C73F}</Project>
+      <Name>Purchasing.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.bytedance.ttsdk.ref.csproj">
+      <Project>{D1422DDB-D342-9206-CD81-6B0EAFC4CFBF}</Project>
+      <Name>com.bytedance.ttsdk.ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{82FAFD3A-1077-6D0E-24A6-16926AC0A224}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{603C40FB-CFBB-FE90-0BC3-6359A701DBE4}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.csproj">
+      <Project>{C99C71B9-9D09-2319-2D8B-859F98C84F0F}</Project>
+      <Name>UnityEngine.Purchasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{7DD7B9EE-8C38-6C02-135C-4E3A1890924F}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{B91970AC-FB26-7296-C383-6267096C6CDE}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{1A5C7BD8-3D6E-3A67-F641-F4C4012F1A9B}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{54BE24E5-5723-3CBC-741F-D5D848F9939E}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.Editor.csproj">
+      <Project>{D8DF0085-E10F-3FFA-2BC7-768FF1BCB9DD}</Project>
+      <Name>Unity.Services.Analytics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{50FA4366-67FE-F86F-7357-D7724C9887A8}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
+      <Project>{2DE11D1B-DF03-80C5-A224-F68AE7D9EC7F}</Project>
+      <Name>UnityEngine.Purchasing.SecurityStub</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppsFlyer.csproj">
+      <Project>{04B79465-AF53-9B18-0D7E-28DC16156789}</Project>
+      <Name>AppsFlyer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.csproj">
+      <Project>{C0C81BEC-40BF-7B69-7591-B0B0E6AB6546}</Project>
+      <Name>Unity.Services.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{9F6A499A-074E-F8E3-3E71-4FEDE484F789}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppsFlyer.Editor.csproj">
+      <Project>{AF6E4F6B-5895-F7F8-50A5-26FC5710427B}</Project>
+      <Name>AppsFlyer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{C33485F7-B2C7-AF5C-EF2A-5A610D951EE3}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="TTLitJson.csproj">
+      <Project>{BA68FD7B-8D85-C7DF-773F-71E1C1FC49EB}</Project>
+      <Name>TTLitJson</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{8BDC61F5-9748-923E-144D-40BD8C41883D}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{FA87C62F-001E-2756-3695-3865CCE9FBE5}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="TTWebGL.csproj">
+      <Project>{3EC031A8-B2EB-EF6F-2C1B-4E7D7DA9C0B9}</Project>
+      <Name>TTWebGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{59D70241-9548-6AF8-F00A-3963BD87A010}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{BCE7126A-3A91-D9E0-5A14-BEDBA2E266AB}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{BE948EB5-2A43-019E-2393-0DE4E3B9C9C2}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
+      <Project>{8CDC226B-3874-52D2-D0C1-1ECDA3392694}</Project>
+      <Name>UnityEngine.Purchasing.SecurityCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="MaxSdk.Scripts.Editor.csproj">
+      <Project>{1E87A31B-B6C1-FA0C-353B-CE12B1BD5ADE}</Project>
+      <Name>MaxSdk.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
+      <Project>{BB4BFA18-881C-0CA9-554C-88E370D045E3}</Project>
+      <Name>UnityEngine.Purchasing.Codeless</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{EC1BAABF-E977-6301-CDF3-3F639DBBDD10}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{5C460D57-AAD1-1E60-4228-DCC00BF14479}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
+      <Project>{B75F7FD5-45C7-3497-70EE-E76A8204D447}</Project>
+      <Name>UnityEngine.Purchasing.Stores</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.bytedance.ttsdk-editor.csproj">
+      <Project>{289CEB0E-D346-8F34-8DCA-6CA0543D2030}</Project>
+      <Name>com.bytedance.ttsdk-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.Purchasing.csproj">
+      <Project>{A10C7039-2492-1610-A9F9-FF4034822C89}</Project>
+      <Name>UnityEditor.Purchasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{2848CA67-B6CA-5741-F8B7-C0862112D030}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MaxSdk.Scripts.csproj">
+      <Project>{5DB24B65-D1DC-D730-AE46-2F93B0AD1A2E}</Project>
+      <Name>MaxSdk.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="MaxSdk.Scripts.IntegrationManager.Editor.csproj">
+      <Project>{989F38EA-DF67-F864-6BE7-B870D7591FC4}</Project>
+      <Name>MaxSdk.Scripts.IntegrationManager.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

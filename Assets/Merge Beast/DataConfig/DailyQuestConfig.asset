@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18dc3e790a05a2d4fb37bcf4fd6ac62f, type: 3}
+  m_Name: DailyQuestConfig
+  m_EditorClassIdentifier: 
+  DailyQuest:
+    m_keys: 00000000010000000200000003000000040000000500000006000000070000000800000009000000
+    m_values:
+    - EnumType: 0
+      Types: f4010000e8030000dc050000
+      Description: "\u5408\u5E76\u732B\u54AA {0} \u6B21."
+      IconQuest: {fileID: 21300042, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 1
+      Types: 1e0000002800000032000000
+      Description: "\u4F7F\u7528\u514D\u8D39\u52A0\u901F {0} \u6B21."
+      IconQuest: {fileID: 21300036, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 2
+      Types: 030000000500000007000000
+      Description: "\u5347\u7EA7\u5408\u6210\u7B49\u7EA7\u6216\u751F\u6210\u65F6\u95F4
+        {0} \u6B21."
+      IconQuest: {fileID: 21300046, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 3
+      Types: 20030000e8030000b0040000
+      Description: "\u8D2D\u4E70 {0} \u6765\u81EA\u5FEB\u901F\u5546\u5E97."
+      IconQuest: {fileID: 21300040, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 4
+      Types: 320000006400000096000000
+      Description: "\u4F7F\u7528\u5408\u5E76\u5956\u724C {0} \u6B21."
+      IconQuest: {fileID: 21300022, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 5
+      Types: 0100000002000000
+      Description: "Ascend {0} \u6B21."
+      IconQuest: {fileID: 21300026, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 6
+      Types: 030000000500000006000000
+      Description: "\u6253\u8D25 {0} \u4E2A\u654C\u4EBA."
+      IconQuest: {fileID: 21300038, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 7
+      Types: 050000000a0000000f000000
+      Description: "\u89C2\u770B\u5E7F\u544A {0} \u6B21."
+      IconQuest: {fileID: 21300030, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 8
+      Types: 010000000200000003000000
+      Description: "\u4F7F\u7528\u81EA\u52A8\u5408\u5E76 {0} \u6B21."
+      IconQuest: {fileID: 21300044, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+    - EnumType: 9
+      Types: 010000000200000003000000
+      Description: "\u8D2D\u4E70 {0} \u4E2A\u5546\u54C1\u5728\u5546\u5E97."
+      IconQuest: {fileID: 21300034, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  ListMission:
+  - MissionName: Raid Boss
+    Type: 0
+    Targets: 0a000000140000001e00000028000000320000003c00000046000000500000005a00000064000000
+    Description: "\u6253\u8D25\u654C\u4EBA\u72B6\u6001{0}."
+    IconMission: {fileID: 21300060, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Unlock Beast
+    Type: 1
+    Targets: 0a000000140000001e00000028000000320000003c00000046000000500000005a00000064000000
+    Description: "\u89E3\u9501\u732B\u54AA\u7B49\u7EA7 {0}."
+    IconMission: {fileID: 21300064, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Collect Star
+    Type: 2
+    Targets: f4010000e803000088130000204e0000a086010020a1070040420f0080841e00404b4c0080969800
+    Description: "\u6536\u96C6 {0}\u661F."
+    IconMission: {fileID: 21300068, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Get Beast
+    Type: 3
+    Targets: f4010000e803000088130000204e0000a086010020a1070040420f00404b4c008096980080f0fa02
+    Description: "\u83B7\u5F97 {0} \u732B\u54AA\u6765\u81EA\u5FEB\u901F\u5546\u5E97."
+    IconMission: {fileID: 21300072, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Upgrade Level Spawn
+    Type: 4
+    Targets: 050000000a0000000f00000014000000190000001e00000023000000280000002d00000032000000
+    Description: "\u5347\u7EA7\u5408\u6210\u7B49\u7EA7\u5230 {0}."
+    IconMission: {fileID: 21300078, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Upgrade Time Spawn
+    Type: 5
+    Targets: 050000000a0000000f00000014000000190000001e00000023000000280000002d00000032000000
+    Description: "\u5347\u7EA7\u751F\u6210\u65F6\u95F4\u5230 {0}."
+    IconMission: {fileID: 21300076, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Active Free Boost
+    Type: 6
+    Targets: 64000000f4010000e80300008813000010270000204e000050c30000a0860100400d030020a10700
+    Description: "\u6D3B\u8DC3 {0} \u500D\u7684\u514D\u8D39\u589E\u76CA."
+    IconMission: {fileID: 21300082, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Spend Gem
+    Type: 7
+    Targets: 64000000f4010000e8030000d00700008813000010270000204e000030750000409c000050c30000
+    Description: "\u6D88\u8D39 {0} \u5B9D\u77F3."
+    IconMission: {fileID: 21300084, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Use Merge Medal
+    Type: 8
+    Targets: f4010000e8030000d00700008813000010270000204e000050c30000a0860100400d030020a10700
+    Description: "\u4F7F\u7528 {0} \u5408\u5E76\u5956\u724C"
+    IconMission: {fileID: 21300062, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Active Auto Merge
+    Type: 11
+    Targets: 0a0000003200000064000000f4010000e8030000d00700008813000010270000204e000050c30000
+    Description: "\u4F7F\u7528\u81EA\u52A8\u5408\u5E76 {0} \u6B21"
+    IconMission: {fileID: 21300074, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Active DPS Boost
+    Type: 9
+    Targets: 0a0000003200000064000000f4010000e8030000d00700008813000010270000204e000050c30000
+    Description: "\u4E3B\u52A8\u4F24\u5BB3\u63D0\u5347 {0} \u6B21."
+    IconMission: {fileID: 21300066, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Active Spawn times
+    Type: 10
+    Targets: 0a0000003200000064000000f4010000e8030000d00700008813000010270000204e000050c30000
+    Description: "\u4F7F\u7528\u751F\u6210\u65F6\u95F4\u52A0\u901F {0} \u6B21."
+    IconMission: {fileID: 21300070, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Kill Enemies
+    Type: 12
+    Targets: 3200000064000000f4010000e8030000d00700008813000010270000204e000050c30000a0860100
+    Description: "\u51FB\u6740 {0} \u654C\u4EBA"
+    IconMission: {fileID: 21300060, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}
+  - MissionName: Ascend
+    Type: 13
+    Targets: 0a0000003200000064000000c800000090010000e8030000d00700008813000010270000204e0000
+    Description: "\u5347\u7EA7 {0} \u6B21"
+    IconMission: {fileID: 21300062, guid: 7ec98c41bd96b914196a23bc7a6ae81f, type: 3}

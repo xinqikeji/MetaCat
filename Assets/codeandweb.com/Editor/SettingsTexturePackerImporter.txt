@@ -1,0 +1,21 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Crush/UI/Crush/TexturePk/boost-atlas.tpsheet
+- Assets/Images/InGame/hunter_ingame.tpsheet
+- Assets/Merge Beast/Image/Asend/ascend.tpsheet
+- Assets/Merge Beast/Image/UI Main/UI_Merge.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Crush/UI/Crush/TexturePk/boost-atlas.png
+- Assets/Images/InGame/hunter_ingame.png
+- Assets/Merge Beast/Image/Asend/ascend.png
+- Assets/Merge Beast/Image/UI Main/UI_Merge.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

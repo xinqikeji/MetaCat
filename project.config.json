@@ -1,0 +1,23 @@
+{
+  "appid": "tt9aa6ec1b05a85fad07",
+  "projectname": "喵灵幻境",
+  "unity": {
+    "build": {
+      "webgl": "D:\\Unity Project\\MetaCat\\MLHJWebGL\\webgl_package-20250921_220937.zip",
+      "native": {
+        "il2cpp": "",
+        "apk": "",
+        "fullApk": ""
+      },
+      "instantGame": ""
+    },
+    "publishType": "2",
+    "starkSdkVersion": "Without StarkSDK",
+    "unityToolsVersion": null,
+    "unityEngineVersion": "2021.3.14f1c1",
+    "arch": "both"
+  },
+  "setting": {
+    "urlCheck": true
+  }
+}
